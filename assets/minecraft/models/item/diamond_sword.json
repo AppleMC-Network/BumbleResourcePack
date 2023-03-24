@@ -1,0 +1,10 @@
+{
+	"parent": "item/handheld",
+	"textures": {
+		"layer0": "item/diamond_sword"
+	},
+	"overrides": [
+		{ "predicate": { "custom_model_data": 1}, "model": "custom:sapphire/items/sapphire_sword"},
+		{ "predicate": { "custom_model_data": 70001}, "model": "lunar_studios:enderkariz/angel_set/angel_set_dagger" }
+			]
+}

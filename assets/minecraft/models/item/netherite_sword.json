@@ -1,0 +1,110 @@
+{
+	"parent": "minecraft:item/handheld",
+	"textures": {
+		"layer0": "minecraft:item/netherite_sword"
+	},
+	"overrides": [
+    {
+			"predicate": {
+				"custom_model_data": 1
+			},
+			"model": "custom:protocal/greatsword"
+		},
+    {
+			"predicate": {
+				"custom_model_data": 2
+			},
+			"model": "custom:protocal/sword"
+		},
+    {
+			"predicate": {
+				"custom_model_data": 3
+			},
+			"model": "custom:protocal/spear"
+		},
+    {
+			"predicate": {
+				"custom_model_data": 4
+			},
+			"model": "custom:protocal/trident"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 70
+			},
+			"model": "custom:clown/clown_sword"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 10001
+			},
+			"model": "custom:pride/pride_sword"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 10002
+			},
+			"model": "custom:ender/ender_sword"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 20001
+			},
+			"model": "custom:saber/blue"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 20002
+			},
+			"model": "custom:saber/green"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 20003
+			},
+			"model": "custom:saber/orange"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 20004
+			},
+			"model": "custom:saber/pink"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 20005
+			},
+			"model": "custom:saber/purple"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 20006
+			},
+			"model": "custom:saber/red"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 20007
+			},
+			"model": "custom:saber/yellow"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 30001
+			},
+			"model": "custom:duck/sword"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 30002
+			},
+			"model": "custom:duck/staff"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 30003
+			},
+			"model": "custom:duck/spear"
+		}
+	]
+}

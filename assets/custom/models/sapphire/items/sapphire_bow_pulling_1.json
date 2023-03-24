@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/handheld",
+  "textures": {
+    "layer0": "custom:sapphire/items/sapphire_bow_pulling_1"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "parent": "item/handheld",
+  "textures": {
+      "layer0": "item/diamond_axe"
+  },
+"overrides": 
+[
+  { "predicate": { "custom_model_data": 1}, "model": "custom:sapphire/items/sapphire_axe"}
+]
+
+}

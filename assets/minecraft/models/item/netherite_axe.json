@@ -1,0 +1,37 @@
+{
+  "parent": "minecraft:item/handheld",
+  "textures": {
+    "layer0": "minecraft:item/netherite_axe"
+  },
+	"overrides": [
+
+    {
+			"predicate": {
+				"custom_model_data": 1
+			},
+			"model": "custom:protocal/axe"
+		},
+    {
+			"predicate": {
+				"custom_model_data": 2
+			},
+			"model": "custom:protocal/hammer"
+		},
+    {
+			"predicate": {
+				"custom_model_data": 3
+			},
+			"model": "custom:protocal/scythe"
+		},
+    {
+			"predicate": {
+				"custom_model_data": 4
+			},
+			"model": "custom:protocal/staff"
+		},
+{ "predicate": { "custom_model_data": 70}, "model": "custom:clown/clown_axe" },
+{ "predicate": { "custom_model_data": 10002}, "model": "custom:ender/ender_axe" },
+{ "predicate": { "custom_model_data": 30001}, "model": "custom:duck/axe" }
+	]
+}
+

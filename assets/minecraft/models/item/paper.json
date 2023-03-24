@@ -1,0 +1,120 @@
+{
+	"parent": "item/handheld",
+    "textures": {
+        "layer0": "item/paper"
+    },
+	"overrides": [
+		{
+			"predicate": {
+				"custom_model_data": 1
+			},
+			"model": "custom:protocal/chest"
+		}, 	
+		{
+			"predicate": {
+				"custom_model_data": 2
+			},
+			"model": "custom:protocal/chest_opening"
+		}, 
+		{
+			"predicate": {
+				"custom_model_data": 3
+			},
+			"model": "custom:protocal/helmet"
+		}, 		
+		{
+			"predicate": {
+				"custom_model_data": 4
+			},
+			"model": "custom:protocal/key"
+		}, 	
+		{
+			"predicate": {
+				"custom_model_data": 5
+			},
+			"model": "custom:protocal/wings"
+		}, 	
+		{
+			"predicate": {
+				"custom_model_data": 6
+			},
+			"model": "custom:protocal/wings_cosmeticscore"
+		}, 	
+		{
+			"predicate": {
+				"custom_model_data": 7
+			},
+			"model": "custom:protocal/wings_cosmeticscore_self"
+		}, 	
+		{
+		"predicate": {
+			"custom_model_data": 10000
+		},
+		"model": "z_iainternal:auto_generated/icon_left_blue"
+	}, {
+		"predicate": {
+			"custom_model_data": 10001
+		},
+		"model": "z_iainternal:auto_generated/icon_right_blue"
+	}, {
+		"predicate": {
+			"custom_model_data": 10002
+		},
+		"model": "z_iainternal:auto_generated/icon_search"
+	}, {
+		"predicate": {
+			"custom_model_data": 10003
+		},
+		"model": "z_iainternal:auto_generated/icon_cancel"
+	}, {
+		"predicate": {
+			"custom_model_data": 10004
+		},
+		"model": "z_iainternal:auto_generated/icon_arrow_chest"
+	}, {
+		"predicate": {
+			"custom_model_data": 10005
+		},
+		"model": "z_iainternal:auto_generated/icon_back_orange"
+	}, {
+		"predicate": {
+			"custom_model_data": 10006
+		},
+		"model": "z_iainternal:auto_generated/icon_next_orange"
+	}, {
+		"predicate": {
+			"custom_model_data": 10007
+		},
+		"model": "haloween:backpack"
+	}, {
+		"predicate": {
+			"custom_model_data": 10008
+		},
+		"model": "haloween:chest"
+	}, {
+		"predicate": {
+			"custom_model_data": 10009
+		},
+		"model": "haloween:chestopen"
+	}, {
+		"predicate": {
+			"custom_model_data": 10010
+		},
+		"model": "haloween:key"
+	}, {
+		"predicate": {
+			"custom_model_data": 30001
+		},
+		"model": "custom:duck/backpack"
+	}, {
+		"predicate": {
+			"custom_model_data": 70001
+		},
+		"model": "lunar_studios:enderkariz/angel_set/angel_set_wings"
+	}, {
+		"predicate": {
+			"custom_model_data": 70002
+		},
+		"model": "minecraft:item/paper"
+	}]
+}

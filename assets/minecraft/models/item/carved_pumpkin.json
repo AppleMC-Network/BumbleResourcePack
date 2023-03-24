@@ -1,0 +1,7 @@
+{
+    "parent": "block/carved_pumpkin",
+	"overrides": [
+		{"predicate": {"custom_model_data":70000}, "model": "lunar_studios:enderkariz/angel_set/angel_armor_helmet"}
+		
+	]
+}

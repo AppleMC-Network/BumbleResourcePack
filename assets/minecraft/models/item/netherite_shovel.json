@@ -1,0 +1,20 @@
+{
+  "parent": "minecraft:item/handheld",
+  "textures": {
+    "layer0": "minecraft:item/netherite_shovel"
+  },
+	"overrides": [
+
+    {
+			"predicate": {
+				"custom_model_data": 1
+			},
+			"model": "custom:protocal/shovel"
+		},
+{ "predicate": { "custom_model_data": 70}, "model": "custom:clown/clown_shovel" },
+{ "predicate": { "custom_model_data": 10002}, "model": "custom:ender/ender_shovel" },
+{ "predicate": { "custom_model_data": 30001}, "model": "custom:duck/shovel" }
+
+	]
+}
+

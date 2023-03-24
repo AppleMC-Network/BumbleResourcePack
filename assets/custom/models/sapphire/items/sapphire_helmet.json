@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "custom:sapphire/items/sapphire_helmet",
+    "layer1": "custom:sapphire/items/sapphire_helmet"
+  }
+}

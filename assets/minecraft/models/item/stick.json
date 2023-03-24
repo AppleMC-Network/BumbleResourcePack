@@ -1,0 +1,38 @@
+{
+   "parent":"item/generated",
+   "textures":{
+      "layer0":"item/stick"
+   },
+   "display":{
+      "head":{
+         "rotation":[
+            0,
+            0,
+            45
+         ],
+         "translation":[
+            -1,
+            13,
+            7
+         ],
+         "scale":[
+            1,
+            1,
+            1
+         ]
+      }
+   },
+   "overrides":[
+{ "predicate": { "custom_model_data":10001}, "model":"custom:pride/ally_flag" },
+{ "predicate": { "custom_model_data":10002}, "model":"custom:pride/asexual_flag" },
+{ "predicate": { "custom_model_data":10003}, "model":"custom:pride/bi_flag" },
+{ "predicate": { "custom_model_data":10004}, "model":"custom:pride/enby_flag" },
+{ "predicate": { "custom_model_data":10005}, "model":"custom:pride/gay_flag" },
+{ "predicate": { "custom_model_data":10006}, "model":"custom:pride/intersex_flag" },
+{ "predicate": { "custom_model_data":10007}, "model":"custom:pride/lesbian_flag" },
+{ "predicate": { "custom_model_data":10008}, "model":"custom:pride/pan_flag" },
+{ "predicate": { "custom_model_data":10009}, "model":"custom:pride/pride_flag" },
+{ "predicate": { "custom_model_data":10010}, "model":"custom:pride/trans_flag" },
+{ "predicate": { "custom_model_data":30001}, "model":"custom:duck/littleduck" }
+   ]
+}

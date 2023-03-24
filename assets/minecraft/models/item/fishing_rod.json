@@ -1,0 +1,65 @@
+{
+	"parent": "item/handheld_rod",
+	"textures": {
+		"layer0": "item/fishing_rod"
+	},
+	"overrides": [{
+		"predicate": {
+			"cast": 1
+		},
+		"model": "item/fishing_rod_cast"
+	},
+	
+	{
+		"predicate": {
+			"custom_model_data": 1
+		},
+		"model": "custom:protocal/fishing_rod"
+	}, {
+		"predicate": {
+			"cast": 1,
+			"custom_model_data": 1
+		},
+		"model": "custom:protocal/fishing_rod_cast"
+	}, 
+
+	{
+		"predicate": {
+			"custom_model_data": 10000
+		},
+		"model": "haloween:fishing"
+	}, {
+		"predicate": {
+			"cast": 1,
+			"custom_model_data": 10000
+		},
+		"model": "haloween:fishing_cast"
+	}, {
+		"predicate": {
+			"custom_model_data": 10002
+		},
+		"model": "custom:ender/ender_fishing_rod"
+	}, {
+		"predicate": {
+			"custom_model_data": 10002,
+			"cast": 1
+		},
+		"model": "custom:ender/ender_fishing_rod_cast"
+	}, {
+		"predicate": {
+			"custom_model_data": 10003
+		},
+		"model": "minecraft:item/fishing_rod"
+	}, {
+		"predicate": {
+			"custom_model_data": 30001
+		},
+		"model": "custom:duck/fishing_rod"
+	}, {
+		"predicate": {
+			"custom_model_data": 30001,
+			"cast": 1
+		},
+		"model": "custom:duck/fishing_rod_cast"
+	}]
+}

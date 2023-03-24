@@ -1,0 +1,12 @@
+{
+	"parent":"item/generated",
+	"textures": {
+		"layer0":"item/leather_chestplate",
+		"layer1":"item/leather_chestplate_overlay"
+	},
+	"overrides": [
+		{ "predicate": { "custom_model_data": 1}, "model": "custom:sapphire/items/sapphire_chestplate"},
+		{ "predicate": { "custom_model_data": 2}, "model": "custom:protocal/protocal_chestplate"},
+		{ "predicate": {"custom_model_data":70001},"model":"lunar_studios:enderkariz/angel_set/angel_armor_chestplate"}
+	]
+}

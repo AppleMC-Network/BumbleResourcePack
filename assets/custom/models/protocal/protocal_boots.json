@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "custom:protocal/items/armor/protocalset_boots",
+    "layer1": "custom:protocal/items/armor/protocalset_boots"
+  }
+}

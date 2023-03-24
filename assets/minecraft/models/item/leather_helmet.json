@@ -1,0 +1,14 @@
+{
+	"parent": "item/generated",
+	"textures": {
+	  "layer0": "item/leather_helmet",
+	  "layer1": "item/leather_helmet_overlay"
+	},
+	"overrides": [
+		{ "predicate": { "custom_model_data": 1}, "model": "custom:sapphire/items/sapphire_helmet"},
+		{ "predicate": { "custom_model_data": 2}, "model": "custom:protocal/protocal_helmet"},
+		{ "predicate": { "custom_model_data": 70}, "model": "custom/armor/clown_helmet" },
+                { "predicate": { "custom_model_data": 10001}, "model": "custom/armor/pride_helmet" },
+                { "predicate": { "custom_model_data": 10002}, "model": "custom/armor/ender_helmet" }
+	]
+}
